@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+</head>
+<body>
+<h1>Main!!! flask use jinja</h1>
+<h1>{{ text }}</h1>
+<!--    {% for i in range(movie_list|length) %}-->
+<!--        <h3>{{i+1}} - {{movie_list[i].title}}</h3>-->
+<!--    {% endfor %}-->
+    {% for movie in movie_list %}
+        <h3>{{movie.rank}}위 - {{movie.title}}</h3>
+        <img src="{{movie.img_url}}">
+    {% endfor %}
+
+<img src="https://movie-phinf.pstatic.net/20111222_9/1324496650021nIPIH_JPEG/movie_image.jpg">
+</body>
+</html>
