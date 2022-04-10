@@ -1,0 +1,16 @@
+22.04.10
+    네이버 영화크롤링
+        requets
+        BeautifulSoup
+        re
+    flask
+        Blueprint
+        render_template
+    뷰
+        HTML
+        jinja2
+            {{}}
+            {% %}
+            {% for i in range(list|length) %}
+
+n 영화 크롤링
